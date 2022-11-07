@@ -9,7 +9,7 @@ const addMushroomButton = document.getElementById('add-mushroom-button');
 const addFriendButton = document.getElementById('add-friend-button');
 // initialize state
 
-let mushroomCount = 3;
+let mushroomCount = 4;
 
 const friendData = [
     {

@@ -61,6 +61,9 @@ function displayMushrooms() {
     // clear out the mushroom div
 
     for (let i = 0; i < mushroomCount; i++) {
+        const mushroomEl = renderMushroom();
+
+        mushroomsEl.append(mushroomEl);
         // for each mushroom in your mushroom state, render and append a mushroom
     }
 }
